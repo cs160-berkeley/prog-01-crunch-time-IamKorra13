@@ -1,22 +1,22 @@
 # PROG 01: Crunch Time
 
-Briefly describe your app here.
+Be Fit is a calorie converting app aimed aid you in your quest to being fit!
 
 ## Authors
 
-FirstName LastName ([your_email@berkeley.edu](mailto:your_email@berkeley.edu))
+Ashley Collins ([a.collins05@berkeley.edu](mailto:a.collins05@berkeley.edu))
 
 ## Demo Video
 
-See [your demo video title here] (https://link_to_your_video)
+See Be Fit ( https://youtu.be/yHxglI7V6Iw)
 
 ## Screenshots
 
-<img src="screenshots/main.png" height="400" alt="Screenshot"/>
+<img src="screenshots/ScreenShot01.png" height="400" alt="Screenshot"/>
+<img src="screenshots/ScreenShot02.png" height="400" alt="Screenshot"/>
+<img src="screenshots/ScreenShot03.png" height="400" alt="Screenshot"/>
+<img src="screenshots/ScreenShot04.png" height="400" alt="Screenshot"/>
+<img src="screenshots/ScreenShot05.png" height="400" alt="Screenshot"/>
 
 ## Acknowledgments
-
-* Hat tip to anyone who's code was used
-* Any other support
-
-*Feel free to enhance your README. For Markdown syntax, see [the GitHub Guides](https://guides.github.com/features/mastering-markdown/). Remove this line in your submission.*
+Thanks Vamsi Tallapudi from coderefer.com for the helpful SplashScreen tutorial as well as all the lovely people answering and posting questions on Stack Overflow. And I can’t forget the Android Developers site for without them none of this would be possible. Most importantly thank you CS 160 staff for all your help, tips and enthusiasm!

@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Be Fit</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="edit_reps">Number of Reps or minutes</string>
+    <string name="calculate"> Burn </string>
+    <string name="title_activity_display_message">Be Fit</string>
+    <string name="exer_spinner_title">Choose Exercise</string>
+    <string name="reps_spinner_title"> Type </string>
+    <string name="title_activity_splash_screen">SplashScreen</string>
+</resources>

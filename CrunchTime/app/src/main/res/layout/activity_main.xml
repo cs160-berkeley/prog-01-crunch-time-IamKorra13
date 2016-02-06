@@ -1,0 +1,42 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal">
+
+    <!-- Spinner Exercise -->
+    <Spinner android:id="@+id/spinner_exercises"
+        android:paddingTop="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:prompt="@string/exer_spinner_title">
+    </Spinner>
+
+    <!-- On second line-->
+    <EditText android:id="@+id/edit_reps"
+        android:paddingTop="30dp"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/spinner_exercises"
+        android:layout_alignParentLeft="true"
+        android:layout_toLeftOf="@+id/spinner_reps"
+        android:hint="@string/edit_reps"/>
+
+    <Spinner android:id="@id/spinner_reps"
+        android:paddingTop="30dp"
+        android:layout_width="96dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/spinner_exercises"
+        android:layout_alignParentRight="true"
+        android:prompt="@string/reps_spinner_title">
+    </Spinner>
+
+<!--Third row-->
+    <Button
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/edit_reps"
+        android:text="@string/calculate"
+        android:layout_centerHorizontal="true"
+    android:onClick="sendMessage"/>
+</RelativeLayout>

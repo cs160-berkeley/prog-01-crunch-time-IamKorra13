@@ -1,0 +1,43 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+
+    tools:context="com.example.ashleythemagnificant.myapplication.DisplayMessageActivity"
+    android:id="@+id/content">
+<!--Displays the first message-->
+    <TextView android:id="@+id/display_message"
+        android:textSize="15sp"
+        android:paddingTop="30dip"
+        android:paddingLeft="10dip"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"/>
+
+    <!-- Displays the results-->
+    <TextView android:id="@+id/display_results"
+        android:paddingTop="25dp"
+        android:textSize="30sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/display_message"
+        android:layout_centerHorizontal="true"/>
+
+    <TextView android:id="@+id/simple_message"
+        android:paddingTop="30dip"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_below="@id/display_results"
+        android:layout_centerHorizontal="true"/>
+
+    <!--List View will display the other exercise and amount of reps/time needed for them.-->
+    <ListView android:id="@+id/display_list_view"
+        android:paddingTop="60dip"
+        android:layout_height="wrap_content"
+        android:layout_width="200dp"
+        android:layout_below="@id/display_results"
+        android:layout_centerHorizontal="true">
+    </ListView>
+
+
+</RelativeLayout>
